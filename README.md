@@ -2,6 +2,8 @@
 
 A Streamlit-based chatbot powered by Google's Gemini AI, designed to assist users with osu! gameplay, technical issues, and specifically focused on the `osuwin21.my.id` private server.
 
+**As right now osuwin21.my.id server is inaccessible due hosting server issue, and developer still trying to fix it, any respon for osuwin21.my.id will return downtime server as an answer.**
+
 ## Features
 
 *   **osu! Expertise**: Answers questions about gameplay mechanics, scoring, difficulty, and client settings.
