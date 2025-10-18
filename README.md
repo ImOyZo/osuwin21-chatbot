@@ -27,8 +27,8 @@ A Streamlit-based chatbot powered by Google's Gemini AI, designed to assist user
 
 1.  **Clone the Repository**
     ```bash
-    git clone <your-repo-url>
-    cd osu-private-server-chatbot
+    git clone https://github.com/ImOyZo/osuwin21-chatbot
+    cd osuwin21-chatbot
     ```
 
 2.  **Install Dependencies**
@@ -40,11 +40,11 @@ A Streamlit-based chatbot powered by Google's Gemini AI, designed to assist user
     *   Obtain a Google AI API Key from [Google AI Studio](https://aistudio.google.com/).
     *   **For Local Development**: Create a file `.streamlit/secrets.toml` in the project root:
         ```toml
-        GOOGLE_API_KEY = "your-actual-gemini-api-key-here"
+        GOOGLE_API_KEY = "gemini-api-key"
         ```
     *   **For Streamlit Cloud Deployment**: Go to your app's settings, navigate to "Secrets", and paste:
         ```
-        GOOGLE_API_KEY = "your-actual-gemini-api-key-here"
+        GOOGLE_API_KEY = "gemini-api-key"
         ```
 
 4.  **Run the Application**
